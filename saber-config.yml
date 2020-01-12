@@ -14,6 +14,6 @@ plugins:
   - resolve: saber-plugin-query-posts
   - resolve: saber-plugin-google-analytics
     options:
-        trackId: UA-143249875-6 # Google Analytics Track ID
+        trackId: UA-XXXXXXX # Google Analytics Track ID
   - resolve: saber-plugin-seo
   - resolve: saber-plugin-sitemap
