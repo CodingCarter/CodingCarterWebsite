@@ -1,0 +1,19 @@
+siteConfig:
+  title: Coding Carter
+  url: https://codingcarter.com/
+  # description: A website that helps others learn how to code with written and video tutorials!
+  author: Carter Snook
+  keywords: Coding,Carter,Snook,Programming,Coding Blog,how,to,code,program,html5,css3,html,css
+
+permalinks:
+  post: /posts/:slug
+  page: /:slug
+
+plugins:
+  - resolve: saber-plugin-prismjs
+  - resolve: saber-plugin-query-posts
+  - resolve: saber-plugin-google-analytics
+    options:
+        trackId: UA-143249875-6 # Google Analytics Track ID
+  - resolve: saber-plugin-seo
+  - resolve: saber-plugin-sitemap
